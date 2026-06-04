@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Challenge of the Day</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="page-header">
+      <div>
+        <p class="eyebrow">Programming Paradigms</p>
+        <h1>Challenge of the Day</h1>
+      </div>
+      <div id="status-badge" class="status-badge">Loading...</div>
+    </header>
+
+    <main>
+      <section id="message" class="alert alert-info" hidden></section>
+
+      <section class="card" id="student-section">
+        <div class="card-header">
+          <h2>Student selection</h2>
+          <p>Start typing your name and choose a match.</p>
+        </div>
+        <div class="field-group">
+          <label for="student-input">Student name</label>
+          <input id="student-input" type="text" autocomplete="off" placeholder="Type your name..." />
+          <div id="suggestions" class="suggestions" hidden></div>
+        </div>
+        <p id="student-hint" class="hint"></p>
+      </section>
+
+      <section class="card" id="challenge-section">
+        <div class="card-header">
+          <h2 id="challenge-title">Challenge</h2>
+          <div id="challenge-meta" class="meta"></div>
+        </div>
+        <div id="challenge-content" class="challenge-content"></div>
+        <div id="challenge-error" class="alert alert-error" hidden></div>
+      </section>
+
+      <section class="card" id="response-section">
+        <div class="card-header">
+          <h2>Your response</h2>
+          <p>Complete the fields below and submit when ready.</p>
+        </div>
+        <form id="response-form"></form>
+        <div class="form-actions">
+          <button id="submit-button" class="primary" disabled>Submit</button>
+        </div>
+      </section>
+
+      <section class="card" id="feedback-section" hidden>
+        <div class="card-header">
+          <h2>Feedback</h2>
+        </div>
+        <div id="feedback-content"></div>
+      </section>
+
+      <section class="card" id="after-submission-section" hidden>
+        <div class="card-header">
+          <h2>After submission</h2>
+        </div>
+        <div id="after-submission-content"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
