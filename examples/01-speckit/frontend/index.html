@@ -1,60 +1,73 @@
-<!doctype html>
-<html lang="pt-BR">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Desafio do Dia - Paradigmas de Programação</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Challenge of the Day</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main class="app-shell">
-    <section class="hero">
-      <div class="brand-mark" aria-hidden="true">
-        <span></span>
-        <span></span>
+  <div class="page-shell">
+    <header class="page-header">
+      <div>
+        <p class="eyebrow">Programming Paradigms</p>
+        <h1>Challenge of the Day</h1>
       </div>
+      <div id="status-badge" class="status-badge">Loading...</div>
+    </header>
 
-      <p class="eyebrow">Paradigmas de Programação</p>
-      <h1>Desafio do Dia</h1>
-      <p class="subtitle">
-        Um desafio rápido. Um aprendizado importante. 
-      </p>
-    </section>
+    <main>
+      <section id="message" class="alert alert-info" hidden></section>
 
-    <section class="student-card">
-      <div class="section-heading">
-        <span class="step-badge">1</span>
-        <div>
-          <h2>Escolha seu nome</h2>
-          <p>Selecione ou digite seu nome.</p>
+      <section class="card" id="student-section">
+        <div class="card-header">
+          <h2>Student selection</h2>
+          <p>Start typing your name and choose a match.</p>
         </div>
-      </div>
-
-      <label for="student-input">Nome do estudante</label>
-      <input id="student-input" type="text" autocomplete="off" placeholder="Digite seu nome...">
-      <ul id="student-suggestions" class="suggestions"></ul>
-      <p id="student-status" class="hint"></p>
-    </section>
-
-    <section id="challenge" class="challenge-card"></section>
-
-    <section class="answer-card">
-      <div class="section-heading">
-        <span class="step-badge">3</span>
-        <div>
-          <h2>Sua resposta</h2>
-          <p>Explique seu raciocínio.</p>
+        <div class="field-group">
+          <label for="student-input">Student name</label>
+          <input id="student-input" type="text" autocomplete="off" placeholder="Type your name..." />
+          <div id="suggestions" class="suggestions" hidden></div>
         </div>
-      </div>
+        <p id="student-hint" class="hint"></p>
+      </section>
 
-      <form id="response-form"></form>
-      <div id="form-message" class="form-message hidden" role="status" aria-live="polite"></div>
-      <button id="submit-button" type="button">Enviar</button>
-    </section>
+      <section class="card" id="challenge-section">
+        <div class="card-header">
+          <h2 id="challenge-title">Challenge</h2>
+          <div id="challenge-meta" class="meta"></div>
+        </div>
+        <div id="challenge-content" class="challenge-content"></div>
+        <div id="challenge-error" class="alert alert-error" hidden></div>
+      </section>
 
-    <section id="feedback" class="feedback-card hidden"></section>
-  </main>
+      <section class="card" id="response-section">
+        <div class="card-header">
+          <h2>Your response</h2>
+          <p>Complete the fields below and submit when ready.</p>
+        </div>
+        <form id="response-form"></form>
+        <div class="form-actions">
+          <button id="submit-button" class="primary" disabled>Submit</button>
+        </div>
+      </section>
 
-  <script type="module" src="./app.js"></script>
+      <section class="card" id="feedback-section" hidden>
+        <div class="card-header">
+          <h2>Feedback</h2>
+        </div>
+        <div id="feedback-content"></div>
+      </section>
+
+      <section class="card" id="after-submission-section" hidden>
+        <div class="card-header">
+          <h2>After submission</h2>
+        </div>
+        <div id="after-submission-content"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
