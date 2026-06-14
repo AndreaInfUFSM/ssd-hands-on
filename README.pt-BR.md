@@ -15,13 +15,22 @@ A aplicação usada como referência é o **Desafio do Dia**, uma pequena aplica
 
 O repositório contém requisitos, scripts de configuração, documentação e os arquivos resultantes gerados durante os experimentos. Também pode ser executado em um **GitHub Codespace**.
 
-## Experimentos
+## Documentação
 
-| Pasta | Método | Objetivo |
+| Pasta | Método | Descrição |
 |---|---|---|
-| [examples/01-speckit](examples/01-speckit/) | Spec Kit | Gerar a aplicação usando o fluxo do Spec Kit |
-| [examples/02-openspec](examples/02-openspec/) | OpenSpec | Gerar a aplicação usando OpenSpec com OpenCode |
-| [examples/03-bmad-quick](examples/03-bmad-quick/) | BMAD Quick | Gerar a aplicação usando o fluxo rápido do BMAD |
+| [docs/README-01-speckit.md](docs/README-01-speckit.md) | Spec Kit | Anotações sobre a experiência com SpecKit |
+| [docs/README-02-openspec.md](docs/README-02-openspec.md) | OpenSpec | Anotações sobre a experiência usando OpenSpec com OpenCode |
+| [docs/README-03-bmad-quick.md](docs/README-03-bmad-quick.md) | BMAD Quick | Anotações sobre a experiência usando o fluxo rápido do BMAD |
+
+
+## Pastas dos experimentos
+
+| Pasta | Método | Descrição |
+|---|---|---|
+| [examples/01-speckit](examples/01-speckit/) | Spec Kit | Arquivos de especificação e código gerado usando o fluxo do Spec Kit |
+| [examples/02-openspec](examples/02-openspec/) | OpenSpec | Arquivos de especificação e código gerado usando OpenSpec com OpenCode |
+| [examples/03-bmad-quick](examples/03-bmad-quick/) | BMAD Quick | Arquivos de especificação e código gerado usando o fluxo rápido do BMAD |
 
 O arquivo de requisitos compartilhado está em: [examples/shared/requirements/challenge-of-the-day-app.md](examples/shared/requirements/challenge-of-the-day-app.md)
 
