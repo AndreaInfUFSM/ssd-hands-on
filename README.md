@@ -74,3 +74,10 @@ O script verifica as principais ferramentas usadas no hands-on e apresenta instr
 ## Observações
 
 Este repositório é exploratório. O objetivo é comparar como diferentes ferramentas de SDD estruturam requisitos, planejamento, artefatos gerados e tentativas de implementação. A aplicação gerada não foi testada e certamente precisaria de refinamento, mas o código tem indícios de que segue boa parte das especificações.
+
+## Uma síntese
+
+Spec Kit:   specify → plan → tasks → implement
+OpenSpec:   propose → apply → archive
+BMAD:       analyst/PM/architect/dev workflows
+Manual:     requirements.md → plan.md → tasks.md → code
