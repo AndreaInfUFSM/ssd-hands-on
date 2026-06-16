@@ -6,7 +6,7 @@ comment: Anotações sobre o uso do Spec Kit para iniciar uma aplicação simple
 import: https://raw.githubusercontent.com/LiaTemplates/mermaid_template/0.1.4/README.md
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/ssd-hands-on/main/docs/README-01-speckit.md)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/AndreaInfUFSM/sdd-hands-on/main/docs/README-01-speckit.md)
 
 
 # Primeiros passos com Spec Kit
@@ -142,7 +142,7 @@ Fluxo um pouco mais cuidadoso:
 
 - Uma vez escolhida a melhor alternativa de design do frontend, a ideia era integrar os arquivos à versão anterior, preservando algumas partes e alterando outras 
 
-- Criei uma spec separada para fazer a integração: https://github.com/AndreaInfUFSM/ssd-hands-on/tree/9d451212b8269ec4b6012d7da486ccbfc204117e/specs
+- Criei uma spec separada para fazer a integração: https://github.com/AndreaInfUFSM/sdd-hands-on/tree/9d451212b8269ec4b6012d7da486ccbfc204117e/specs
 
 - **Reflexão**: Resultado não foi o esperado, pois acabou sendo gerada outra aplicação. Isso provavelmente poderia ter sido notado antes de terminar todo o fluxo, examinando os documentos intermediários gerados 
 
@@ -152,6 +152,6 @@ Fluxo um pouco mais cuidadoso:
 - Rodadas subsequentes do fluxo exigem mais atenção
 - Particularidade do SpecKit: 
 
-  - muito sensível à localização da pasta .git, o que exigiu uma gambiarra neste repositório ssd-hands-on, que já tinha uma pasta .git (tive que criar um subrepo não rastreado para inicializar o SpecKit, depois remover o .git que ele cria)
+  - muito sensível à localização da pasta .git, o que exigiu uma gambiarra neste repositório sdd-hands-on, que já tinha uma pasta .git (tive que criar um subrepo não rastreado para inicializar o SpecKit, depois remover o .git que ele cria)
   - uso mais natural: inicializar o SpecKit na raiz de um repositório
 
