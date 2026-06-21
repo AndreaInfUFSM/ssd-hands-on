@@ -11,13 +11,13 @@
 ## ➡️ Sumário
 
 
-- [O que tem aqui?](#o-que-tem-aqui)
-- [Configure seu ambiente de execução](#configure-seu-ambiente-de-execução)
-- [Verifique o ambiente](#verifique-o-ambiente)
-- [Anotações sobre cada experimento](#anotações-sobre-cada-experimento)
-- [Arquivos e pastas](#arquivos-e-pastas)
-- [Síntese comparativa](#síntese-comparativa)
-- [Saiba mais](#saiba-mais)
+- [O que tem aqui?](#%EF%B8%8F-o-que-tem-aqui)
+- [Configure seu ambiente de execução](#%EF%B8%8F-configure-seu-ambiente-de-execução)
+- [Verifique o ambiente](#%EF%B8%8F-verifique-o-ambiente)
+- [Anotações sobre cada experimento](#%EF%B8%8F-anotações-sobre-cada-experimento)
+- [Arquivos e pastas](#%EF%B8%8F-arquivos-e-pastas)
+- [Síntese comparativa](#%EF%B8%8F-síntese-comparativa)
+- [Saiba mais](#%EF%B8%8F-saiba-mais)
 
 
 ## ➡️ O que tem aqui?
