@@ -13,7 +13,7 @@ Os 3 frameworks foram aplicados à geração inicial de uma mesma aplicação: o
 O repositório contém requisitos, scripts de configuração, documentação e os arquivos resultantes gerados durante os experimentos. Também pode ser executado em um **GitHub Codespace**.
 
 
-## Configure seu ambiente de execução
+## ➡️ Configure seu ambiente de execução
 
 Este repositório contém a especificação de um container para:
 - (a) execução no GitHub Codespaces **ou**
@@ -46,7 +46,8 @@ O ambiente de execução inclui ferramentas básicas para os experimentos, como 
 
 
 
-## Verifique o ambiente
+## ➡️ Verifique o ambiente
+
 
 Depois de iniciar seu ambiente de execução, abra um terminal dentro do repositório/container e execute:
 
@@ -57,7 +58,7 @@ bash scripts/check-env.sh
 Esse script verifica as principais ferramentas usadas no hands-on e apresenta instruções de instalação manual para o que estiver faltando.
 
 
-## Veja anotações detalhadas sobre cada experimento
+## ➡️ Anotações detalhadas sobre cada experimento
 
 | Framework | Documentação |
 |---|---|
@@ -66,7 +67,7 @@ Esse script verifica as principais ferramentas usadas no hands-on e apresenta in
 | BMAD Quick | [docs/README-03-bmad-quick.md](docs/README-03-bmad-quick.md) |
 
 
-## Arquivos e pastas
+## ➡️ Arquivos e pastas
 
 - Arquivo de requisitos compartilhado: [examples/shared/requirements/challenge-of-the-day-app.md](examples/shared/requirements/challenge-of-the-day-app.md)
 
@@ -82,7 +83,7 @@ Esse script verifica as principais ferramentas usadas no hands-on e apresenta in
 
 
 
-## Síntese comparativa
+## ➡️ Síntese comparativa
 
 ### Who / When
 
@@ -112,7 +113,7 @@ Manual:     requirements.md → plan.md → tasks.md → code
 
 
 
-## Saiba mais sobre os frameworks
+## ➡️ Saiba mais 
 
 ### SpecKit
 
@@ -131,6 +132,6 @@ Manual:     requirements.md → plan.md → tasks.md → code
 - Documentação oficial: https://docs.bmad-method.org/
 - Repositório no GitHub: https://github.com/bmad-code-org/BMAD-METHOD
 
-## Observações
+## ➡️ Observações
 
 Este repositório é exploratório. O objetivo é comparar como diferentes ferramentas de SDD estruturam requisitos, planejamento, artefatos gerados e tentativas de implementação. A aplicação gerada não foi testada e certamente precisaria de refinamento, mas o código tem indícios de que segue boa parte das especificações.
